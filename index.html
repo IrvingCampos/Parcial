@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+                  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<link type="text/css" rel="stylesheet" href="assets/materialize/css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/GeneralStyle.css">
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       <meta charset="utf-8">
+
+    </head>
+
+    <body class="">
+    <div class="navbar-fixed">
+    <nav class="panel grey darken-4">
+    <div class="navbar-fixed">
+      <a href="#!" class="brand-logo"><img src="banner2.png" width="100px" height="60px"></a>
+      <ul class="right hide-on-med-and-down">
+        
+        <li class="Opciones"><a href="#">Inicio</a></li>
+        <li class="Opciones"><a href="view/Productos_E.html">Damas</a></li>
+        <li class="Opciones"><a href="#">Caballeros</a></li>
+        <li class="Opciones"><a href="view/Comunidad.html">Comunidad</a></li>
+        <li class="Opciones"><a href="#">¿Quiénes somos?</a></li>
+
+        <li class="search">
+                <input id="search" type="" name="" class="grey-text">
+                <div class="search-results"></div>
+        </li>
+        <li class="Opciones"><a href="#"><i class="material-icons">search</i></a></li>
+        <li><a href="#"><i class="material-icons">view_module</i></a></li>
+        <li class="Opciones"><a href="#"><i class="material-icons">refresh</i></a></li>
+        <li class="Opciones"><a href="#"><i class="material-icons">more_vert</i></a></li>
+      </ul>
+    </div>  
+    </nav>
+    </div>  
+
+
+<!--
+     <ul id="slide-out" class="side-nav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="images/office.jpg">
+      </div>
+      <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+      <a href="#!name"><span class="white-text name">John Doe</span></a>
+      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>    
+-->
+<center>
+  <ul class="pagination">
+    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+    <li class="active"><a href="#!">Inicio</a></li>
+    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+  </ul>
+
+</center>
+        <div class="row">
+  <div class="col s3" id="Lateral">
+        <div class="card panel grey darken-3">
+        <span class="white-text"><center><b>ULTIMAS NOTICIAS</b></center></span>
+        </div>
+        <div class="card panel white" id="Noticias">
+            <img class="responsive-img" src="assets/images/Noticia1.jpg">
+            <p class="grey-text text-darken-2">Porque lo 90’s vuelven y con ella la gorra mítica gorra marinera, sera la magia de Chanel en su último desfile, pero lo cierto es que la gorra marinera va a ser la primera GRAN TENDENCIA del año.</p>
+        </div>
+        <div class="card panel white" id="Noticias">
+            <img class="responsive-img" src="assets/images/Referencia2.jpg">
+            <p class="grey-text text-darken-2">La serie CORSAIR RMx ha ganado diversos premios por su rendimiento eléctrico y por el silencioso ventilador como modo Zero RPM.</p>
+        </div>
+
+        <!-- Promo Content 2 goes here -->
+      </div>
+      <div class="col s3"></div>
+      <div class="col s9">
+        <div class="card-panel hoverable"> 
+            <center><h3>Estilos de verano</h3></center>
+            <center><img src="assets/images/Referencia1.jpg" width="700"></center>
+            <p class="grey-text text-darken-3">
+               Los colores tropicales se tomaron la colección de verano en la marca alemana. Lo nuevo de Adidas Originals está llena diseños tropicales, chaquetas, pantalones y accesorios.
+
+              Te dejamos el Lookbook de Adidas veraniego.
+            </p>
+        </div>
+
+        <div class="card-panel hoverable"> 
+            <center><h3>IDEAS Y TIPS PARA ARMAR TUS OUTFITS.</h3></center>
+            <center>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/w4zTQawcq2w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </center> 
+      </div>
+        </div>
+        
+    
+
+    </div>
+
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script type="text/javascript">
+             // Initialize collapse button
+  $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  //$('.collapsible').collapsible();
+  $('.button-collapse').sideNav({
+      menuWidth: 300, // Default is 300
+      edge: 'right', // Choose the horizontal origin
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true, // Choose whether you can drag to open on touch screens,
+      onOpen: function(el) {  }, // A function to be called when sideNav is opened
+      onClose: function(el) {  }, // A function to be called when sideNav is closed
+    }
+  );
+
+  // Show sideNav
+  $('.button-collapse').sideNav('show');
+  // Hide sideNav
+  $('.button-collapse').sideNav('hide');
+  // Destroy sideNav
+  $('.button-collapse').sideNav('destroy');
+            $(document).ready(function() {
+    $('select').material_select();
+  });
+  
+ /*
+function registrar() {
+    //var deviceID = device.uuid;
+    var theUrl = "http://192.168.80.72/pruebas/agregar.php";
+    
+    var codigo = document.getElementById("codigo").value;
+    var nombre = document.getElementById("nombre").value;
+    var apellido = document.getElementById("apellido").value;    
+    var telefono = document.getElementById("telefono").value;
+    var direccion = document.getElementById("direccion").value;
+    var departamento = document.getElementById("departamento").value;    
+    
+    var parametros = "codigo="+codigo+"&nombre=" + nombre + "&apellido=" + apellido + "&telefono=" + telefono + "&direccion=" + direccion + "&departamento=" + departamento + "";
+    
+    var http = new XMLHttpRequest();// request http funciones de interaccion con la web
+    http.open("POST", theUrl, true); // false for synchronous request
+    http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    http.send(parametros);
+    Materialize.toast('Sus Datos Fueron Enviados!', 4000);
+}*/
+            
+        </script>
+    </body>
+    
+</html>

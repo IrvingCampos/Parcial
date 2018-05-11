@@ -1,0 +1,40 @@
+nav
+            {
+                position: top;
+            }
+            .Opciones:hover
+            {
+                background-color: #0277bd;
+            }
+            html
+            {
+                 overflow-y: scroll;
+                 line-height: 1.5;
+
+            }
+         
+            p 
+            {
+                text-align: justify;
+                margin-left: 2px;
+                margin-right: 2px;
+                line-height: normal;
+                display: block;
+                -webkit-margin-before: 1em;
+                -webkit-margin-after: 1em;
+                -webkit-margin-start: 0px;
+                -webkit-margin-end: 0px;
+            }
+            #Noticias
+            {
+                height: 310px;
+                line-height: normal;
+            }
+            #Lateral
+            {
+              position: fixed;
+            }
+            .Items
+            {
+                height: 250px;
+            }
